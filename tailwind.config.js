@@ -1,13 +1,22 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.html"],
+  purge: ['./**/*.html', './**/*.js'],
+  content: [],
   theme: {
-    container: {
-      center: true,
-    },
     extend: {
-      colors: {},
-    },
+      fontFamily: {
+        sans: ['Be Vietnam Pro', 'sans-serif'], // Add 'Vietnam Pro' as the default sans-serif font
+      },
+      colors: {
+        clifford: '#da373d',
+        primary: '#10B981',
+        secondary: '#ACAC97',
+        integral: '#3C5A48',
+        bg: '#FAF7EF',
+
+      }
+    }
   },
-  variants: {},
-  plugins: [require("@tailwindcss/typography")],
-};
+  plugins: [],
+}
+

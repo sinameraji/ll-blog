@@ -1,10 +1,15 @@
 ---
 items:
-  - text: Menu One
-    url: "#"
-  - text: Menu Two
-    url: "#"
-  - text: Menu Three
-    url: "#"
+  - text: Home
+    url: "/"
+  - text: Members
+    url: "https://learningloop.com/#members"
+  - text: Pricing
+    url: "https://learningloop.com/#pricing"
+  - text: Corporate Partners
+    url: "https://learningloop.com/partners"
   - text: Blog
     url: "/blog"
+  - text: Sign up
+    url: "#"
+    primary: True
